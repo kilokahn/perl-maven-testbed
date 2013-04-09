@@ -1,0 +1,18 @@
+<assembly>
+        <id>Tarball</id>
+        <includeBaseDirectory>false</includeBaseDirectory>
+        <formats>
+                <format>zip</format>
+        </formats>
+        <fileSets>
+            <fileSet>
+                <directory>.</directory>
+                <outputDirectory></outputDirectory>
+                <includes>
+                    <include>bin/**</include>
+                    <include>lib/**</include>
+                    <include>etc/**</include>
+                </includes>
+            </fileSet>
+        </fileSets>
+</assembly>
